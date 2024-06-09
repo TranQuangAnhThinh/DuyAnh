@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+.text{
+	text-align: center;
+}
+@media screen and (max-width: 3000px){
+	.text p{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+		font-size: 24px;
+	}
+	.cach{
+	margin: 100px 0px 0px 0px;
+}
+	.hinh{
+		height: 300px;
+		object-fit: cover;
+		overflow: hidden;
+	}
+	.chu{
+		height: 50px;
+		justify-content: center;
+		padding: 10px;
+	}
+	.chu p{
+		font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+		font-size: 16px;
+		text-align: center;
+	}
+	.chu a{
+		text-decoration: none;
+		color: #000000;
+	}
+	.chu a:hover{
+		color: #EE5427;
+		text-decoration: underline;
+	}
+	
+	.nen a{
+		font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+		font-size: 25px;
+		text-decoration: none;
+		color: #575757;
+	}
+
+	.nen a:hover{
+		color:#EE5427;
+		font-size: 30px;
+	text-decoration: underline;
+	}
+	.anh{
+		background: url("../hinhanh/345627236_634949738525991_3679212874024293366_n.jpg");
+		height: 300px;
+		background-size: cover;
+		text-align: center;
+		padding: 150px 0px
+	}
+	
+}
+@media screen and (max-width: 1000px){
+	.text p{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+		font-size: 24px;
+}
+	.cach{
+	margin: 100px 0px 0px 0px;
+}
+	.hinh{
+	height: 200px;
+		overflow: hidden;
+}
+	.hinh img{
+	height: 200px;
+	object-fit: cover;
+}
+	.nen a{
+		font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+		font-size: 25px;
+		text-decoration: none;
+		color: #575757;
+	}
+
+	.nen a:hover{
+		color:#EE5427;
+		font-size: 30px;
+	text-decoration: underline;
+	}
+	.anh{
+		background: url("../hinhanh/345627236_634949738525991_3679212874024293366_n.jpg");
+		background-size: cover;
+		height: 300px;
+		text-align: center;
+		padding: 100px 0px
+	}
+}
+@media screen and (max-width: 600px){
+	.text p{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+		font-size: 20px;
+}
+	.cach{
+	margin: 40px 0px 0px 0px;
+}
+	.hinh{
+	height: 200px;
+	object-fit: cover;
+}
+	.hinh img{
+	height: 200px;
+	object-fit: cover;
+}
+	.nen a{
+		font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+		font-size: 25px;
+		text-decoration: none;
+		color: #575757;
+	}
+
+	.nen a:hover{
+		color:#EE5427;
+		font-size: 30px;
+	text-decoration: underline;
+	}
+	.anh{
+		background: url("../hinhanh/345627236_634949738525991_3679212874024293366_n.jpg");
+		height: 300px;
+		background-size: cover;
+		text-align: center;
+		padding: 90px 0px
+	}
+	
+	}
