@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	}
+
+.logo{
+		text-align: center;
+}
+.lech{
+	text-align: end;
+}
+@media screen and (max-width: 3000px){
+	.kichthuoc{
+	height: 100px;
+}
+	.fluid{
+	width: 100%;
+}
+	.lech img{
+		height: 30px;
+		margin: 0px 10px;
+	}
+	.logo img{
+		height: 40%;
+	}
+	.container{
+		margin: 0% 15%;
+	}
+	.timkiem img{
+		height: 30px;
+		margin: 0px 10px;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.kichthuoc{
+	height: 100px;
+}
+	.fluid{
+	width: 100%;
+}
+	*{
+	margin: 0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	
+}
+	.timkiem img{
+		height: 27px;
+		margin: 0px 6px;
+	}
+	.logo img{
+		height: 35%;
+	}
+	.container{
+		margin: 0% 10%;
+	}
+	.lech img{
+		height: 27px;
+		margin: 0px 6px;
+	}
+}
+@media screen and (max-width: 600px){
+	.kichthuoc{
+	height: 60px;
+}
+	.fluid{
+	width: 100%;
+}
+	.timkiem img{
+		height: 15px;
+		margin: 0px 1px;
+	}
+	.logo img{
+		height: 20%;
+	}
+	.container{
+		margin: 0% 5%;
+	}
+	.lech img{
+		height: 15px;
+		margin: 0px 1px;
+	}
+}
+	
